@@ -10,8 +10,6 @@ st.set_page_config(
     layout="wide"
 )
 
-
-
 # --- Session State Management ---
 if "messages" not in st.session_state:
     st.session_state.messages = []
